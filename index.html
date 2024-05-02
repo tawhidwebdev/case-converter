@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="main w-full h-[700px] bg-[red] text-center">
+    <h1 class="text-white text-3xl p-8">Uppercase & Lowercase</h1>
+    <div>
+      <textarea name="input" cols="60" rows="10" placeholder="Enter Your Text" class="inputbox"></textarea>
+    </div>
+    <div class="mt-[50px] flex gap-4 flex-wrap items-center justify-center">
+      <button type="submit" class="btn1 bg-black py-3 px-8 cursor-pointer uppercase text-white rounded-lg">uppercase</button>
+
+      <button type="submit" class="btn2 bg-black py-3 px-8 cursor-pointer lowercase text-white rounded-lg">lowercase</button>
+
+      <button type="reset" class="btn3 bg-[green] text-white py-3 px-8 cursor-pointer text-[green] rounded-lg">Reset</button>
+
+    </div>
+    <div class="emty p-10 bg-white mt-10 w-[450px] overflow-y-auto	 mx-auto"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
